@@ -10,82 +10,48 @@
 </head>
     <body>
         <header class="cabecalho-principal">
-
             <div class="container">
             <h1 class="cabecalho-principal-titulo">
                 <a href="#">Portfólio</a>
             </h1>
-                <nav class="barra-nav">
-                        <ul>
-                            <button class="barra-nav-link">Sobre</button>
-                            <button class="barra-nav-link">Projetos</button>
-                            <button class="barra-nav-link">Contato</button>
-                        </ul>  
+                <nav class="cabecalho-menu">    
+                    <a class="cabecalho-menu-item">Sobre</a>
+                    <a class="cabecalho-menu-item">Projetos</a>
+                    <a class="cabecalho-menu-item">Contato</a>  
                 </nav>
             </div>
         </header>
-        
-            <section>
-                <img src="">
-                <h1>Desenvolvedor</h1>
-                <p>Um site para servir como meu portfólio</p>
-                <button>Conheça mais sobre meus projetos</button>
-            </section>
-        </header>
-        <section>
-            <h2>Sobre</h2>
-            <p>Eu sou Matheus e estudo a 6 meses programação</p>
-            <button>Veja mais informações sobre Matheus Wisch</button>
-        </section>
-        <section>
-            
-            <div>
-                <h2>Portfólio</h2>
-                    <div>
-                        <img src="" alt="">
-                        <h3>Projeto 1</h3>
-                        <p>Descrição do projeto</p>
+            <main class="conteudo">
+                <section class="conteudo-principal">
+                    <div class="conteudo-principal-escrito">
+                        <h1 class="conteudo-principal-escrito-titulo">Matheus Wisch</h1>
+                        <h2 class="conteudo-principal-escrito-subtitulo">Comecei a estudar programação em fevereiro de 2022, </h2>
+                        <button class="conteudo-principal-escrito-botao">Me adicione</button>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <h3>Projeto 2</h3>
-                        <p>Descrição do projeto</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <h3>Projeto 3</h3>
-                        <p>Descrição do projeto</p>
-                    </div>
-                </div>
-                <div>
-                    <h2>Projetos</h2>
-                    <div>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div>
-                    <h2>Contato</h2>
-                    <h3>Venha falar comigo</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                            <a href="">(77) 9 8159-8181</a>
-                        </div>
-                        
-                        <div>
-                            <img src="" alt="">
-                            <a href="">wisch.pg@outlook.com</a>
-                        </div>
-                    </div>
-                </div>
-        </section>
+                    <img class="conteudo-principal-imagem" src="../imagens/main.svg" alt="imagem de uma garoto programando" width="500">
+                </section>
+                <section class="conteudo-secundario">
+                    <h3 class="conteudo-secundario-titulo">Projetos</h3>
+                    <ul class="conteudo-secundario-projetos">
+                        <li>
+                            <h2>Cadastro de Cliente</h2>
+                            <img src="../imagens/springboot.svg" alt="" width="200">
+                            <p>Desenvolvido com SpringBoot</p>
+                        </li>
+                        <li>
+                            <h2>Banco Com Java</h2>
+                            <img src="../imagens/java.svg" alt="" width="200">
+                            <p>Aprendendo a usar o Java</p>
+                        </li>
+                        <li>
+                            <h2>Consulta melhores filmes IMDB</h2>
+                            <img src="../imagens/imdb.svg" alt="" width="200">
+                            <p>Consumindo API do IMDB</p>
+                        </li>
+                    </ul> 
+                    </section>
+            </main>
+                
         <footer>
             <a href="../html/index.html">Voltar</a>
             <h3>Desenvolvido por: Matheus Wisch</h3>

@@ -1,4 +1,37 @@
-.barra-nav {
+.container {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-secundario-projetos {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
 }
